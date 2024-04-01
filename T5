@@ -1,0 +1,12 @@
+1.How strong is the generated test suite?
+The test suite is pretty strong since it covers all the aspects of the classes for every class provided for the observation, they check every scenario in code, detect errors and align with the expected use cases and critical paths of the application
+
+2.How could you check the strength of the generated test suite?
+Use code coverage tools to assess which parts of the code are being exercised by the tests.
+Perform mutation testing to determine if the tests can catch injected faults.
+Review the tests manually to ensure that they cover all requirements, including boundary conditions and error handling.
+Run the tests against known defects to see if they are caught.
+Evaluate the test results for flakiness or non-deterministic behavior, which can undermine test strength.
+
+3.What does the generated test suite say about the correctness of your program?
+It can be hard to say whether th programm is correct or not. Techincally it is correct since TestSpark makes test accordingly to the code to pass on all of the test, but on the other side, to ensure the correctness of the program, it's essential that the tests accurately reflect the expected behavior as defined by the requirements and that they are part of a larger, comprehensive testing strategy.
